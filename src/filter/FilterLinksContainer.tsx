@@ -16,7 +16,7 @@ const mapDispatchToProps = (dispatch: any, ownProps: any) => {
     }
 }
 
-const FilterLink = connect(
+const FilterLink = connect<any, any, any>(
     mapStateToProps,
     mapDispatchToProps
 )(Link)

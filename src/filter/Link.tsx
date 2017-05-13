@@ -2,19 +2,19 @@ import * as React from 'react'
 
 
 
-const Link = ({ active, children, onClick }) => {
-    if (active) {
-        return <span>{children}</span>
+const Link = (props: any) => {
+    if (props.active) {
+        return <span>{props.children}</span>
     }
 
     return (
         <a href="#"
            onClick={e => {
                e.preventDefault();
-               onClick();
+               props.onClick();
            }}
         >
-            {children}
+            {props.children}
         </a>
     );
 }

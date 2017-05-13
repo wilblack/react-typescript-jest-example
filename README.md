@@ -20,4 +20,7 @@ Congrats. At this point you have a React app running written in Typescript. Now 
 ```
 npm install redux react-redux react-router-dom --save
 
+npm install @types/react-redux react-router-dom --save
+
+
 ```
