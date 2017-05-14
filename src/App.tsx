@@ -6,6 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
 import Routes from './routes';
+import AddTodo from './todo/AddTodoContainer';
 
 class App extends React.Component<{}, null> {
     render() {
@@ -13,6 +14,7 @@ class App extends React.Component<{}, null> {
             <BrowserRouter>
                 <div>
                     <Header/>
+                    <AddTodo/>
                     <Routes/>
                     <Footer/>
                 </div>
