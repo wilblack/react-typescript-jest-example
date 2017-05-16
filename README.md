@@ -89,8 +89,4 @@ Here is an example of the directory structure.
           |-- __tests__/
 ```
 
-Note; to makke this I used []() with the commange `node mddir "../../../" > ../../../dir-struct.json`
-
-
-
-
+More to come...
