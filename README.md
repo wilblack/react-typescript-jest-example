@@ -2,7 +2,7 @@
 An example Todo app showing how to test a React-redux app written in Typescript 
 
 
-### Introduction
+## Introduction
 In this tutorial I will be setting upan example React-Redux app in Typescript, defining the types i need, and finally writing unit tests for the app with Jest and Enzyme. 
 This example todo app is created using the `creat-react-app-typescript` [`creat-react-app-typescript`](https://github.com/wmonk/create-react-app-typescript) repo by [wmonk](https://github.com/wmonk).
 It closely follows the [Redux Todo example app for React](http://redux.js.org/docs/basics/ExampleTodoList.html) 
@@ -12,7 +12,7 @@ but has some differences, for instance I added [`react-router`](https://github.c
 For writing test I followed this guide [Redux Writing Tests Guide](http://redux.js.org/docs/recipes/WritingTests.html).
 
 
-### Initial Setup
+## Initial Setup
 You will need to need NodeJS and the Node Package Manager (NPM) installed on your machine. Please see [Node/org](https://nodejs.org/) for installations instructions.
 First we will create a new React app in Typescript using the `create-react-app-typesctipt`. We'll name is `todo-app`.
 
@@ -37,7 +37,7 @@ npm install @types/react-redux react-router-dom --save
 
 ```
 
-### Directory Structure
+## Directory Structure
 For this app I chose to use a "domain-based" directory structure as opposed to a "function-based" directory structure. I prefer the domian-based 
 structure because it keeps components and there related files together and helps maintain modularity. Also having an Angular/Ionic
 background this directory structure feels right at home.
